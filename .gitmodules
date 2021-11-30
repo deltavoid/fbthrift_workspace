@@ -1,0 +1,21 @@
+[submodule "libevent"]
+	path = libevent
+	url = https://github.com/deltavoid/libevent.git
+[submodule "folly"]
+	path = folly
+	url = https://github.com/deltavoid/folly.git
+[submodule "wangle"]
+	path = wangle
+	url = https://github.com/deltavoid/wangle.git
+[submodule "mstch"]
+        path = mstch
+	url = https://github.com/deltavoid/mstch.git
+[submodule "zstd"]
+	path = zstd
+	url = https://github.com/deltavoid/zstd.git
+[submodule "fbthrift"]
+        path = fbthrift
+        url = https://github.com/deltavoid/fbthrift.git
+[submodule "fbthrift_example3"]
+	path = fbthrift_example3
+	url = https://github.com/deltavoid/fbthrift_example3.git
