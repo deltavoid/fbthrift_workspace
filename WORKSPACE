@@ -3,13 +3,13 @@
 
 libevent
 
-folly
-
-wangle
-
 mstch
 
 zstd
+
+folly
+
+wangle
 
 fbthrift
 
