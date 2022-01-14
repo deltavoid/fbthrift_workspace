@@ -1,9 +1,7 @@
-FROM deltavoid/debian_ssh_key:2022.01.13
+FROM deltavoid/debian_cpp_basic:2022.01.13
 
 
 ADD ./ /repos/fbthrift_workspace
-
-# RUN cd /repos/fbthrift_workspace && git pull origin master
 
 RUN cd /repos/fbthrift_workspace && git submodule update --init --recursive
 
