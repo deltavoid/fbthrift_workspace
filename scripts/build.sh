@@ -82,5 +82,6 @@ apt-get install -y build-essential \
 (
     cd fbthrift_example3
     make build
-    # make run_echo
+    # not daemon
+    make run_echo
 )
